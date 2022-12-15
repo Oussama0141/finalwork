@@ -10,8 +10,8 @@ import tn.esprit.kaddemspring.services.UniversiteServices;
 
 import java.util.List;
 
-@CrossOrigin("*")
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping("/universite")
 public class UniversiteControllers {
 

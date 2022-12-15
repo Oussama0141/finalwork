@@ -12,8 +12,8 @@ import tn.esprit.kaddemspring.services.DepartementServices;
 
 import java.util.List;
 
-@CrossOrigin(origins = "*")
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping("/Departement")
 public class DepartementControllers {
     @Autowired

@@ -11,8 +11,8 @@ import tn.esprit.kaddemspring.services.UtilisateurServices;
 
 import java.util.List;
 
-@CrossOrigin("*")
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping("/Utilisateur")
 public class UtilisateurControllers {
 

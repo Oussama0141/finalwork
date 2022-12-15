@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import tn.esprit.kaddemspring.services.DetailsEquipeServices;
 
-@CrossOrigin("*")
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping("/DetailsEquipe")
 public class DetailsEquipeControllers {
     @Autowired

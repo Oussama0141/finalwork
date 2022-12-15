@@ -12,8 +12,8 @@ import tn.esprit.kaddemspring.services.ContratServices;
 import java.util.List;
 
 
-@CrossOrigin("*")
     @RestController
+    @CrossOrigin(origins = "*")
     @RequestMapping("/Contrat")
     public class ContratControllers {
         @Autowired

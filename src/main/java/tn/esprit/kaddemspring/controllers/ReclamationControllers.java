@@ -9,8 +9,8 @@ import tn.esprit.kaddemspring.services.ReclamatonServices;
 
 import java.util.List;
 
-@CrossOrigin(origins = "*")
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping("/Reclamation")
 
 public class ReclamationControllers {

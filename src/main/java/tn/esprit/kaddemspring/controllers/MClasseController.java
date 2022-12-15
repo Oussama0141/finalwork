@@ -11,8 +11,8 @@ import java.util.List;
 import java.util.Optional;
 
 
-@CrossOrigin(origins = "*")
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping("/MClasse")
 public class MClasseController {
 

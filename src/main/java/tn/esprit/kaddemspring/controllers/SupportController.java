@@ -10,8 +10,8 @@ import java.util.List;
 import java.util.Optional;
 
 
-@CrossOrigin("*")
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping("/support")
 public class SupportController {
 

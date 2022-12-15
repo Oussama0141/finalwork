@@ -13,8 +13,8 @@ import tn.esprit.kaddemspring.services.UtilisateurServices;
 
 import java.util.List;
 
-@CrossOrigin("*")
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping("/request")
 public class RequestControllers {
     @Autowired

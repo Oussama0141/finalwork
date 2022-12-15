@@ -11,8 +11,8 @@ import tn.esprit.kaddemspring.services.EquipeServices;
 
 import java.util.List;
 
-@CrossOrigin("*")
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping("/Equipe")
 public class EquipeControllers {
     @Autowired

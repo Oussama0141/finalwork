@@ -12,10 +12,9 @@ import tn.esprit.kaddemspring.services.IProjectService;
 import java.util.Date;
 import java.util.List;
 
-@CrossOrigin(origins = "*")
-@AllArgsConstructor
 @Slf4j
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping("controllerProjet")
 public class ProjectController {
 

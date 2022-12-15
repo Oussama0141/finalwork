@@ -10,8 +10,8 @@ import java.util.List;
 import java.util.Optional;
 
 
-@CrossOrigin(origins = "*")
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping("/Formateur")
 public class FormateurController {
     @Autowired
